@@ -1,5 +1,6 @@
 if minetest.get_modpath("crafting") then
-	--https://stackoverflow.com/questions/15706270/sort-a-table-in-lua
+	-- spairs function licensed CC-BY-SA 3.0
+	-- https://stackoverflow.com/questions/15706270/sort-a-table-in-lua
 	function spairs(t, order)
 		-- collect the keys
 		local keys = {}
